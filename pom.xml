@@ -35,11 +35,11 @@
 	<!-- shared dependencies across modules -->
 	<dependencies>
 		<!-- osgi -->
-		<dependency>
-			<groupId>org.osgi</groupId>
-			<artifactId>org.osgi.core</artifactId>
-			<version>4.0</version>
-		</dependency>
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.core</artifactId>
+            <version>4.3.0.201102171602</version>
+        </dependency>
 
 		<!-- spring -->
 		<dependency>
@@ -228,12 +228,11 @@
 		</dependency>
 
 		<!-- test -->
-		<dependency>
-			<groupId>org.springframework.osgi</groupId>
-			<artifactId>junit.osgi</artifactId>
-			<version>3.8.2-SNAPSHOT</version>
-			<scope>test</scope>
-		</dependency>
+        <dependency>
+            <groupId>org.junit</groupId>
+            <artifactId>com.springsource.junit</artifactId>
+            <version>3.8.2</version>
+        </dependency>
 		<dependency>
 			<groupId>org.hamcrest</groupId>
 			<artifactId>hamcrest-library</artifactId>
@@ -443,9 +442,7 @@
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>
-					maven-project-info-reports-plugin
-				</artifactId>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
 			</plugin>
 
 			<!-- ============== -->
@@ -539,27 +536,16 @@
 			<url>http://repo1.maven.org/eclipse/</url>
 		</repository>
 
-		<repository>
-			<id>com.springsource.repository.bundles.external</id>
-			<name>
-				SpringSource Enterprise Bundle Repository - External
-				Bundle Releases
-			</name>
-			<url>
-				http://repository.springsource.com/maven/bundles/external
-			</url>
-		</repository>
-
-		<repository>
-			<id>com.springsource.repository.bundles.release</id>
-			<name>
-				SpringSource Enterprise Bundle Repository - SpringSource
-				Bundle Releases
-			</name>
-			<url>
-				http://repository.springsource.com/maven/bundles/release
-			</url>
-		</repository>
+        <repository>
+            <id>com.springsource.repository.bundles.release</id>
+            <name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name>
+            <url>http://repository.springsource.com/maven/bundles/release</url>
+        </repository>
+        <repository>
+            <id>com.springsource.repository.bundles.external</id>
+            <name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
+            <url>http://repository.springsource.com/maven/bundles/external</url>
+        </repository>
 
 		<repository>
 			<id>spring-release</id>
