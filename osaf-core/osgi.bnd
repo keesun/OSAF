@@ -1,0 +1,47 @@
+
+Import-Package: \
+    javax.sql, \
+    org.springframework.test.context.junit4, \
+    org.springframework.test.context, \
+    org.springframework.mock.web, \
+    org.mvel, \
+    org.apache.commons.logging, \
+    org.springframework.transaction.annotation, \
+    org.springframework.dao, \
+    org.dom4j, \
+    javax.servlet.http, \
+    javax.servlet, \
+    org.springframework.jdbc.core.simple, \
+    org.springframework.jdbc.datasource, \
+    org.hibernate;version="3.2.6.ga", \
+    org.hibernate.classic;version="3.2.6.ga", \
+    org.hibernate.criterion;version="3.2.6.ga", \
+    org.apache.poi.hssf.usermodel;version="3.0.2.FINAL", \
+    org.apache.poi.poifs.filesystem;version="3.0.2.FINAL", \
+    org.springframework.web.bind.support, \
+    org.springframework.web.servlet, \
+    org.springframework.web.servlet.handler, \
+    org.springframework.web.servlet.view.document, \
+    org.springframework.web.bind.annotation, \
+    org.springframework.web.multipart, \
+    javax.persistence, \
+    org.dbunit.database;version="2.2.0", \
+    org.dbunit.dataset;version="2.2.0", \
+    org.dbunit.dataset.excel;version="2.2.0", \
+    org.dbunit.dataset.xml;version="2.2.0", \
+    org.dbunit.operation;version="2.2.0", \
+    org.springframework.validation, \
+    org.springframework.context, \
+    org.springframework.ui, \
+    org.springframework.stereotype, \
+    org.springframework.util, \
+    org.springframework.core.io, \
+    org.springframework.web.context.request, \
+    org.springframework.web.context.support, \
+    org.springframework.beans.factory.annotation, \
+    org.springframework.beans, \
+    org.springframework.beans.factory, \
+    *
+ 
+Export-Package: \
+	org.opensprout.osaf.*;version=${project.version}, \

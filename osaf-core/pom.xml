@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+		<groupId>org.opensprout</groupId>
+		<artifactId>osaf</artifactId>
+		<version>1.0.0-m1</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.opensprout</groupId>
+	<artifactId>osaf-core</artifactId>
+	<version>1.0.0-m1</version>
+	<packaging>bundle</packaging>
+	<name>OSAF Core OSGi Bundle</name>
+	<url>http://www.opensprout.org</url>
+	<description>
+		Provide core OpenSprout Application Framework packages.
+	</description>
+
+	<properties>
+		<javadoc.loc>${basedir}/../docs/src/javadoc</javadoc.loc>
+	</properties>
+</project>

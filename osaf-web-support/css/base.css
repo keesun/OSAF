@@ -1,0 +1,283 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, µ¸¿ò;
+	font-size: 12px;
+}
+
+li {
+	list-style: none;
+}
+
+/* title */
+#title { /* background: url(../images/title_bar.png) repeat-x; */
+	height: 31px;
+}
+
+h1 {
+	color: #c68038; /* #555555; */
+	font-size: 16px;
+	padding: 5px;
+}
+
+/* searchbtn */
+#buttons {
+	border: #dbdce3 solid 1px;
+	background: #fff url(../images/command_bar.png) repeat-x;
+}
+
+#buttons a {
+	text-decoration: none;
+	color: #444444;
+	line-height: 28px;
+	margin: 0 10px 0 5px;
+	padding-left: 18px;
+}
+
+#buttons a:hover {
+	color: #ab3c83;
+	text-decoration: underline;
+}
+
+A.searchbtn {
+	background: url(/images/cmd-send.png) no-repeat center left;
+}
+
+A.addbtn {
+	background: url(/images/cmd-save-draft.png) no-repeat center left;
+}
+
+A.updatebtn {
+	background: url(/images/cmd-save-draft.png) no-repeat center left;
+}
+
+A.excelbtn {
+	background: url(/images/cmd-cancel.png) no-repeat center left;
+}
+
+A.savebtn {
+	background: url(/images/cmd-save-draft.png) no-repeat center left;
+}
+
+A.cancelbtn {
+	background: url(/images/cmd-cancel.png) no-repeat center left;
+}
+
+A.deletebtn {
+	background: url(/images/cmd-delete.png) no-repeat center left;
+}
+
+A.printbtn {
+	background: url(/images/cmd-print.png) no-repeat center left;
+}
+
+A.downbtn {
+	background: url(/images/cmd-down.png) no-repeat center left;
+}
+
+A.upbtn {
+	background: url(/images/cmd-up.png) no-repeat center left;
+}
+
+A.greenbtn {
+	background: url(/images/cmd-green.png) no-repeat center left;
+}
+
+A.redbtn {
+	background: url(/images/cmd-red.png) no-repeat center left;
+}
+
+A.bluebtn {
+	background: url(/images/cmd-blue.png) no-repeat center left;
+}
+
+A.batchbtn {
+	background: url(/images/cmd-batch.png) no-repeat center left;
+}
+
+/* searchform */
+#searchformbox {
+	border-color: #dbdce3;
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	background: #e9f9ff;
+	padding: 3px 3px 3px 0;
+}
+
+#searchrow {
+	padding: 5px 5px 5px 0;
+	color: #555555;
+}
+
+/* search form */
+#searchrow label {
+	color: #222222;
+	background: url(../images/dot_orange.gif) no-repeat center left;
+	padding-left: 6px;
+	margin: 0 10px 0 20px;
+}
+
+input {
+	border: #dbdce3 solid 1px;
+	height: 16px;
+}
+
+select {
+	border: #dbdce3 solid 1px;
+}
+
+/* main form */
+#formbox {
+	border: #dbdce3 solid 1px;
+	background-color: #eff9ff;
+	width: 99%;
+}
+
+#form,.formblock {
+	float: left;
+}
+
+.formblock {
+	padding: 5px;
+}
+
+.formblock p {
+	clear: both;
+}
+
+.formblock p label {
+	width: 100px;
+	color: #222222;
+	background: url(../images/dot_orange.gif) no-repeat center left;
+	padding-left: 6px;
+	margin: 5px 10px 0px 20px;
+	float: left;
+}
+
+.formblock p input {
+	float: left;
+	padding: 2px;
+	margin-bottom: 6px;
+}
+
+.formblock p textarea {
+	float: left;
+	padding: 2px;
+	margin-bottom: 6px;
+}
+
+.formblock p select {
+	float: left;
+	margin-bottom: 6px;
+}
+
+/* iframe */
+.ifrmbox {
+	width: 100%;
+}
+
+.ifrm {
+	width: 100%;
+}
+
+/* grid navigation bar */
+.navibar {
+	line-height: 35px;
+	color: #555;
+}
+
+.navicount {
+	float: left;
+	margin-left: 10px;
+	color: #c68038;
+	font-weight: bold;
+}
+
+.navimessage {
+	float: left;
+	margin-left: 10px;
+	color: #019a30;
+	width: 20%;
+}
+
+.pagenavi {
+	float: right;
+	text-align: center;
+	width: 50%;
+}
+
+.pagenavi a {
+	text-decoration: none;
+	color: #444444;
+}
+
+.pagenavi a:hover {
+	text-decoration: underline;
+	background-color: #eeeeee;
+}
+
+.pagesize {
+	float: right;
+	text-align: right;
+	margin-right: 10px;
+	width: 25%;
+}
+
+.pagesize select {
+	color: #555;
+}
+
+.curpage {
+	color: #333;
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;	
+}
+
+/* subgrid, subgroup */
+.ifrmbox {
+	clear: both;
+	float: left;
+}
+
+h2 {
+	float: left;
+	color: #88a; /* #555555; */
+	font-size: 13px;
+	padding: 5px;
+}
+
+.subgroup {
+	clear: both;
+	float: left;
+	margin-top: 10px;
+	background-color: #ddedf4;
+	width: 99%;
+}
+
+.subgroup a {
+	float: right;
+	text-decoration: none;
+	color: #444444;
+	line-height: 28px;
+	margin: 0 10px 0 5px;
+	padding-left: 18px;
+}
+
+#maingridbox {
+	margin-top: 10px;
+	margin-right: 2px;
+}
+
+.fielderror {
+	margin-left: 10px;
+	color: red;
+}
+
+.error {
+	margin-left: 10px;
+	color: red;
+}
+
