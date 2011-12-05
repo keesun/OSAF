@@ -5,7 +5,7 @@ This is OSGified by bnd, so you can use it within any OSGi platforms.
 
 # Versions #
 
-[Recently Released: 1.0.0-M2 (10.28.2008)](https://github.com/keesun/OSAF/wiki/1.0.0-M1-Release-Note)
+[Recently Released: 1.0.0-M1 (10.28.2008)](https://github.com/keesun/OSAF/wiki/1.0.0-M1-Release-Note)
 
 # Fetures #
 
